@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<br>
+<h1>Output Screen</h1>
+<br>
+<br>
+
+<h2>Content that you have entered</h2> = {{fullcontentt}}
+<br>
+<br>
+<br>
+<h2>Total number of words</h2> = <h2>{{length}}</h2>
+<br>
+<br>
+<h2>Word Frequency</h2>
+{% for word, value in frequencycounter %}
+{{word}}={{value}}
+{% endfor %}
+
+</body>
+</html>
